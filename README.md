@@ -1,3 +1,1 @@
-# bot_projects
-# bot_projects
-# bot_projects
+#Bu proje, Polymarket üzerinde çalışan algoritmik bir ticaret botudur.
