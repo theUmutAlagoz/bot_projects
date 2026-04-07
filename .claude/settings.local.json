@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 35748 /F)",
+      "Bash(cmd /c \"taskkill /PID 35748 /F\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(cmd /c \"taskkill /IM node.exe /F 2>&1\")",
+      "Bash(cmd /c 'taskkill /IM node.exe /F')",
+      "Bash(cmd /c \"for /f \"\"tokens=5\"\" %a in \\(''netstat -aon ^| findstr :3001 ^| findstr LISTENING''\\) do taskkill /PID %a /F\")",
+      "Bash(cmd /c \"netstat -aon | findstr :3001 | findstr LISTENING\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}

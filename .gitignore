@@ -1,0 +1,21 @@
+# Environment variables — NEVER commit this file!
+.env
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+logs/
+
+# Test / scratch files
+test-*.js
+check-*.js
+find-*.js
+
+# OS artifacts
+.DS_Store
+Thumbs.db
